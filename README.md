@@ -18,3 +18,5 @@ docker-compose build
 docker-compose up -d <container_name>  
 docker logs <container_name>  
 docker-compose down  
+
+docker pull <container_id>  
