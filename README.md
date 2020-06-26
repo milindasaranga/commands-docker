@@ -1,12 +1,10 @@
 # docker-commands
 
 docker build -t <image-name>
-  
 docker rmi <image-id>
 
 docker run -p 4000:4000 <image-name>
 
-# list docker containers
 docker ps
 
 docker stop <container_id>
