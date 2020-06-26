@@ -13,7 +13,7 @@ docker container rm <container_id>
 docker image rm <image_id>  
 docker rmi <image-id>  
 
-========================================================================================================================================
+==================================================================  
 docker-compose build  
 docker-compose up -d <container_name>  
 docker logs <container_name>  
