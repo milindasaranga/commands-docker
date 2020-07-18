@@ -21,7 +21,7 @@ docker-compose down
 
 docker pull <container_id>  
 
-==================================================================
+================================================================== 
 docker run -ti ubuntu:lalest bash 
 cat /etc/lsb-release 
 exit 
