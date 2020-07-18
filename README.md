@@ -22,18 +22,18 @@ docker-compose down
 docker pull <container_id>  
 
 ==================================================================  
-docker run -ti ubuntu:lalest bash 
-cat /etc/lsb-release 
-exit 
+docker run -ti ubuntu:lalest bash  
+cat /etc/lsb-release  
+exit  
 
-docker ps --format #FORMAT 
+docker ps --format #FORMAT  
 
-docker run (image to container) 
-docker commit (container to image) 
+docker run (image to container)  
+docker commit (container to image)  
 
-docker ps -l --format=$FORMAT 
+docker ps -l --format=$FORMAT  
 docker commit {container_id) 
 
-docker tag {image_id} my-image 
+docker tag {image_id} my-image  
 
-docker commit {container_name} my-image-2 
+docker commit {container_name} my-image-2  
