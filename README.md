@@ -34,10 +34,10 @@ docker commit (container to image)
 docker ps -l --format=$FORMAT  
 docker commit {container_id) 
 
-=================================================================
-docker build -t springio/gs-spring-boot-docker .  
-command builda an image and tag it as springio/gs-spring-boot-docker
-
 docker tag {image_id} my-image  
 
 docker commit {container_name} my-image-2  
+
+=================================================================  
+docker build -t springio/gs-spring-boot-docker .  
+command builda an image and tag it as springio/gs-spring-boot-docker
