@@ -41,4 +41,8 @@ docker commit {container_name} my-image-2
 =================================================================  
 docker build -t springio/gs-spring-boot-docker .  
 command builda an image and tag it as springio/gs-spring-boot-docker  
-mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
+mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)  
+
+=================================================================  
+build image using maven command  
+./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=springio/gs-spring-boot-docker  
